@@ -1,0 +1,196 @@
+Q1:
+CSS cascading style sheet
+html hypertext markup language
+html your crete and represent structure of web css styling it
+html you just create structure of your webpage but in css you color it ans styling your webpage more attractive..
+
+
+
+Q2:css apply way:
+inline css
+external css
+interal css
+
+<p style=height="300px",width="300px"> inline css  apply on p tag
+internal css :
+<style> tag in head tag 
+<style>
+.pclass{
+height="300px",
+width="300px"
+}
+</style>
+
+
+Q3:
+inline
+internal
+external
+ inline css diff:if you want to style only tag and insdie only this element used inline css
+ external css diff: if you want to style perticular tag used internal csss using style tag
+ external css diff if you want to style large html web and large css then used external css.. with link tag 
+
+
+
+
+Q4:
+box model wraped all html element and divided parts intude follwing:
+box model in css include padding margin border context
+ box model content 
+ after that padding 
+ after that border
+ after that margin
+
+ content:the word in html box hii its content
+
+ padding:the space betweent content and border called padding
+
+ border:boder between padding and margin
+    
+margin:margin space between boder and other element called margin
+
+
+Q5:
+
+CSS selectorer:
+1.simple selector
+2.combinated selectorer
+3:psedo-class selector 
+4:psedo_element selector 
+5:attribute selector
+
+
+
+
+
+
+
+Q6:class and id selector:
+if you style a web using class selectore denoted with .
+if you style a web using id selector denodetd by #
+example:
+.abc{
+    height:300px
+     width:300px
+}
+
+#abc{
+    
+    height:300px
+     width:300px
+}
+
+
+
+
+Q7
+    psudeo-clasess:define speacial state of element
+
+    styntax:
+    selector:psedo_class{
+    property:value
+    }
+
+Q8:
+ keyword that used with selector to target element based on condition or add speacialeffect 
+
+ spedo_clasess target element in specific state 
+
+ spedo_element style specific part of an element
+
+
+Q9:
+HOW DO YOU CREATE FLEXBOX CSS
+first you can create box model :height width boder
+if you want to display your boxes in horizantally vertically use flexbox
+flex_direction:row and flex_direction:coloumn
+display flex_direction
+
+
+Q10:
+poistion realtive and poistion absolute
+
+if you give poistion relative property on box they work accouding to its parent poistion
+
+ poistion absolute if you give absolute poistion the box work accouding toweb pages top left right 
+
+poistion fixsed:
+ if you give poistion fixed suppose you give nav bar and they includes poistion fixed top after scrooleing its fix it in top 
+
+
+Q11:
+THE margin you can do horizantally and vertically center  a div.
+<div class="box"></div>
+css
+.box{
+    height:200px
+     width:200px
+     boder:2px;
+     margin:quto
+}
+
+
+Q12:
+margin:
+the space betweent boder and other element called margin in box model
+  
+padding:
+the space between content and border called padding
+
+
+
+Q13:
+use of media query in css:
+the media query in css if you want to display your web page or app and other pepole see your web in mobile 
+tap laptop viewport
+media query use the user display our webpage in hes /shes mobile laptop disktop
+
+
+Q14:
+Z index property in css 
+controll the overlapping of html elemen you can give z-index -1
+p{
+    height:300px
+    width:300px
+    z-index:-1
+}
+
+
+Q15:
+Rem  used to measuring the font size of html elemen
+% unit used set values to current font size or size of parent elemnt 
+em:two time the size of current font 
+px:font size in pixsel
+
+
+Q16:
+animation the element change one style to onthor style
+css chnages many times if you want chnages many time 
+@keyframe
+@keyfrom abc{
+    from:{baground_color:red}
+    to:{baground_color:pink}
+}
+
+Q17:
+transitions:
+transitions the elements changes one style to another but its give durstions 
+transitions
+transitions-dealy
+transitions-duration
+transitions-properlly
+transitions-timing-function
+
+
+Q18:
+make website responsive using css media query 
+ we can use css media query:like this
+   @media screen  (min-width="490px") and (max-width="900px){
+    0%(baground color:red)
+    20%(baground color:yellow)
+    40%(baground color:pink)
+    60%(baground color:green)
+   }
+
+
+

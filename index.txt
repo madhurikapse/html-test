@@ -1,0 +1,262 @@
+Q1:
+HTML stand for hypertex markup language .
+hypertex menas link you can move or link one component to another or single page 
+markup langauge menas you reprsent your website .
+HTML used to create web structure and html is represent websites 
+html  structure explantion:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+html boilearpalte its reprsent Document menas document after that <head> tag and <title>tag you can give title
+html gives many tags <h1> to <h6> tag header tag
+<footer> tag <a> link one component to anothor used link tag 
+structure:::
+<div> inside a div tag you can give classname and id for styling purpose
+<div><h1>hii am madhuri</h1></div>
+click on go live extension then move to browser and display hii am madhuri
+
+
+
+Q2:
+HTML AND HTML5
+html its not mobile friendly and html5 is mobile friendly
+html not handel properlly 
+
+html no audio vedio support 
+html5 support audio vedio tag
+
+
+
+
+@3:
+what is the purpose of DOCTYPE menas its a boilearpalte predifned code
+and when you click on shift and 1 then display boilearpalte
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+document menas DOCTYPE 
+when you write content inside a <body> tag then display on browser 
+
+
+Q4:
+block level element == <div>
+inline element ==<span>
+
+<div>is a block level element block block level element give full width of box or page 
+and its start from new line the supose you write a <div><h1>hello</h1></div> you will display hello only
+
+<span>supose you write <span>hello</span>  and <span>madhuri kapse</span>
+when you click on go live extension we will display single line hello madhuri kapse menas the inline element never start from new line
+and does not give full width of page
+
+<div> block level element  alway start new line and give full width of page
+<span>inline element never start new line and doen not give full width of page
+
+Q5::
+semantic html element 
+sementic element menas provide meaing full defination of your elemen.semantic tag <header> <footer>
+semantic tag provide menaifull information name of your browser
+not semantic element <div> <span> <i> <B> 
+
+
+
+Q6:
+<div> it is block level element
+<span>its is inline element
+
+<div>div tag menas division tag alway start from new line and give full width of page
+<span> span tag menas its does not strat from new line and and doen not give full width of page
+
+
+Q7:how do you create hyperlink? you can write <a> tag anchor tag its create hyperlink in html 
+
+    <a target="_blank"></a>
+    <a target="_parent"></a>
+    <a target="_self"></a>
+    <a target="_top"></a> 
+    after that you give target black when you go to web browser you display only black  new  page
+
+
+Q8:
+various html tag:
+<h1><h2><h3><h4><h5><h6> the heading tag
+<footer> footer tag
+<div> division tag
+<span> span tag inline element
+<a>  anchor tag
+<B>    bold tag
+<mark>  mark tag use d to mark perticular word it  light_green color
+<i>  its used to  icon put on html page
+
+<h1>heading tags:
+<h1>when you want display your heading very large and attractive
+<h2>when you want display your heading small large 
+<h3> when you want display your heading medium large 
+<h4> when you want display your heading very small 
+<h5> when you want display your heading  very small size
+<h6> when you want to display your heading like p tag but you want to blod your heding with small size then use <h6>
+
+@9:
+purpose of alt attribute in <img>
+<img src="htttp//"  alt="img not found"> when youe write img tag after tht put alt tag wheneaver you loss of internet or not write url or htttp connnection 
+then dsiplay img not found that why alt attribute imp
+
+ones you display img or send one not display img in your website the use alt tag
+
+@10:
+
+List:of html
+<ul> unorder list
+<ol>  ordered list
+<dl>   discription list <dd>discription data  <dt> discription term
+
+<ul>unorder list its menas your list display unordarly
+ <ul>
+    <li>coffie</li>
+    <li>Tea</li>
+</ul>
+
+<ol>orderd list its menas your list display orderly
+ <ol>
+        <li>apple</li>
+        <li>banana</li>
+    </ol>
+
+
+<dl>:discription list 
+ <dl>
+        <dt>awdiz course</dt>
+        <dd>MERN</dd>
+        
+    </dl>
+
+
+Q11:
+how can you create table:
+  <table border="1px">
+        <thead>
+            <th>name:</th>
+            <th>course:</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>madhuri</td>
+                <td>awdiz fullstack</td>
+            </tr>
+        </tbody>
+    </table>
+
+<tfoot> tag used for footer 
+
+
+Q12:
+META tag used for html
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    Q13:
+    when you  write form tag after that include elements...
+    the form in html you write <input> <lable> <button>
+     <form  action="/index2.html">
+        <label>name:</label>
+        <input type="text" placeholder="enter your name">
+        <label>email:</label>
+        <input type="text" placeholder="enter your email">
+        <button type="submit">submit</button>
+    </form>
+
+     form element:label input button
+     form attribute action="/index2.html" means when you can  write thank you for vistion page in index2 file aftrer form submied you display thank you 
+
+
+     Q14:
+     what is purpose of action attribute in form if you want to dsiplay any content after from submited you can write 
+     <form action="index.html">
+     </form>
+     method get post 
+
+     action attribute form if you want to dsiplay any content after from submited 
+     method attribute <from method="post"></form>
+
+
+     Q15:
+     HOW CAN YOU INCLUDE JAVASCIPT AND CSS 
+       when you want to include javascript in html page used <script> tag insed a script use javascript
+       when you wanr include css in html used <link> tag 
+    
+
+    Q16:
+
+    data attribute:
+
+                 custome attribute allows to write in html 
+
+
+    Q17:
+    <iframe> tag if you want to display map in your webpage
+    <ifram> tag you can put link and display map in web you can easly acces map link 
+    steps:
+    1 you go on google map after that you click on  embbed link you got html link copy this and paste your ifram tag 
+
+
+    Q18:diff betw class and id:
+    class attribute denoted . and id attribute denoted # 
+    <div class="abc">
+    in csss 
+    .abc{
+        height:400px
+        width:400px
+        border:1px solid black
+    } 
+  attribute means provide meanigfull information of your elements called attribute.
+    in class attribute you cna give multiple same class name 
+
+ <div id="abc">
+    in csss
+     #abc{
+        height:400px
+        width:400px
+        border:1px solid black
+    } 
+    id attribute when you want color only one  single element  after that give id  #denoted by # 
+
+
+   Q 19:
+   <script> tag if you want to put your javascript in your html use <script> 
+   and alway use for script tag in <head>
+   if you put in <body> tag its never be works
+
+
+   Q20:
+   do you create responsive webpage using  html not you doen not create responsive in html if you want to create responsive
+   we can use css media query:like this
+   @media screen  (min-width="490px") and (max-width="900px){
+    0%(baground color:red)
+    20%(baground color:yellow)
+    40%(baground color:pink)
+    60%(baground color:green)
+   }
+
+
+
+
+

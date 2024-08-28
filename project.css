@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+header {
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right:400px;
+}
+.nav a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #ddd;
+}
+a,img{
+    height: 90px;
+}
+.car{
+    height: 500px;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: 900px;
+}
+.carbox{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: -400px;
+}
+
+
+.a ,img{
+    height: 400px;
+    width: 590px;
+}
+
+.d{
+    position: absolute;
+    top: 1650px;
+    color: white;
+    margin-left: 30px
+}
+
+.e{
+    position: absolute;
+    top: 1650px;
+    color: white;
+    margin-left: 800px;
+}
+.f{
+    position: absolute;
+    top: 1950px;
+    color: white;
+    margin-left: 800px;
+}
+.g{
+    position: absolute;
+    top: 1950px;
+    color: white;
+    margin-left: 200px;
+}
+.m{
+    position: absolute;
+    top: 3950px;
+    color: white;
+    margin-left: 200px;
+}
+.n{
+    position: absolute;
+    top: 1950px;
+    color: white;
+    margin-left: 200px;
+}
+.but{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+.but2 ,h2{
+    color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+button{
+    margin-left: 600px;
+    height: 60px;
+    width: 200px;
+}
+.but2 ,h1{
+    margin-top: 70px;
+    color: white;
+    margin-left: 600px;
+}
+
+
+
+
+
+footer {
+    background-color:gray;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 150px;
+}
+
+.footer-section h4 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
